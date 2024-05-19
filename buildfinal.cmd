@@ -13,4 +13,5 @@ timeout /t -1
 cls
 color 0f
 py -m build
+py -m twine check dist/*
 py -m twine upload --repository pypi dist/*
