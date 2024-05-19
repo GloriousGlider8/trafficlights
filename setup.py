@@ -5,7 +5,7 @@ def getFile(fileName):
         return fileHandler.read()
 
 setup(
-    name="trafficlights",
+    name="gg8-trafficlights",
     nersion="0.1.1",
     author="GloriousGlider8",
     author_email="sam.g.plimmer@gmail.com",

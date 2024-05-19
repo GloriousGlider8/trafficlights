@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: trafficlights
+Name: gg8-trafficlights
 Version: 0.1.1
 Summary: A package to help prevent race conditions.
 Project-URL: Homepage, https://gloriousglider8.github.io/py/tlights

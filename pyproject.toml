@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "trafficlights"
+name = "gg8-trafficlights"
 version = "0.1.1"
 description = "A package to help prevent race conditions."
 authors = [
