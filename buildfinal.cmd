@@ -12,7 +12,7 @@ echo Have you incremented the version number?
 timeout /t -1
 cls
 color 0f
-hatch build
+hatch build .
 py -m twine check dist/*
 IF %ERRORLEVEL% NEQ 0 goto error || py -m twine upload --repository pypi dist/*
 

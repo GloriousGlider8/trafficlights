@@ -16,4 +16,4 @@ license = { file="LICENSE" }
 include = ["src/**", "README.md", "LICENSE"]
 
 [tool.hatch.build.targets.wheel]
-include = ["src/**"]
+include = ["src/**", "README.md", "LICENSE"]
