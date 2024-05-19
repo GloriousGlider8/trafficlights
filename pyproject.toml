@@ -1,23 +1,19 @@
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
 [project]
 name = "trafficlights"
 version = "0.1.1"
-authors = [
-  { name="GloriousGlider8", email="sam.g.plimmer@gmail.com" },
-]
 description = "A package to help prevent race conditions."
-readme = "README.md"
-requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+authors = [
+    { name="GloriousGlider8", email="sam.g.plimmer@gmail.com" }
 ]
+readme = "README.md"
+license = { file="LICENSE" }
 
-[project.urls]
-Homepage = "https://gloriousglider8.github.io/py/tlights"
-Issues = "https://github.com/GloriousGlider8/trafficlights/issues"
+[tool.hatch.build.targets.sdist]
+include = ["src/**", "README.md", "LICENSE"]
+
 [tool.hatch.build.targets.wheel]
-packages = ["src/trafficlights"]
+include = ["src/**"]
