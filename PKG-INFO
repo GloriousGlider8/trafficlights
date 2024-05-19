@@ -3,7 +3,6 @@ Name: trafficlights
 Version: 0.1.1
 Summary: A package to help prevent race conditions.
 Project-URL: Homepage, https://gloriousglider8.github.io/py/tlights
-Project-URL: Issues, https://github.com/GloriousGlider8/trafficlights/issues
 Author-email: GloriousGlider8 <sam.g.plimmer@gmail.com>
 License-File: LICENSE
 Description-Content-Type: text/markdown

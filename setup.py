@@ -6,7 +6,7 @@ def getFile(fileName):
 
 setup(
     name="trafficlights",
-    version="0.1.1",
+    nersion="0.1.1",
     author="GloriousGlider8",
     author_email="sam.g.plimmer@gmail.com",
     description="A package to help prevent race conditions.",
